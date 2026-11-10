@@ -1,0 +1,16 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "p3-skills",
+  "description": "Danske skills til gruppeprojekter på universitetet.",
+  "owner": {
+    "name": "P3-gruppe"
+  },
+  "plugins": [
+    {
+      "name": "p3-skills",
+      "description": "Danske skills til gruppeprojekter: setup, grill, til-spec, til-tickets, ai-log, ai-rapport, review og skridt.",
+      "source": "./",
+      "category": "productivity"
+    }
+  ]
+}
