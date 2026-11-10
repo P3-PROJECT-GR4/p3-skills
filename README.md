@@ -6,12 +6,23 @@ Flowet er udviklet i et P3-projekt på AAU og bygger delvist på [Matt Pococks s
 
 ## Installation
 
-I Claude Code:
+Vælg én af måderne. Start en ny session bagefter, så skills'ene bliver indlæst.
+
+**I Claude Code i terminalen** (skrives i samme felt som beskeder til Claude):
 
 ```
 /plugin marketplace add P3-PROJECT-GR4/p3-skills
 /plugin install p3-skills@p3-skills
 ```
+
+**I en almindelig terminal**:
+
+```bash
+claude plugin marketplace add P3-PROJECT-GR4/p3-skills
+claude plugin install p3-skills@p3-skills
+```
+
+**I Claude-desktop-appen**: `/plugin` åbner appens plugin-side. Tilføj markedspladsen `P3-PROJECT-GR4/p3-skills` der, og installér `p3-skills` fra listen. Alternativt kan I bruge terminal-kommandoerne ovenfor.
 
 Skills'ene kaldes med `/p3-skills:<navn>`, fx `/p3-skills:setup`. Dem uden `disable-model-invocation` kan Claude også selv bruge, når det passer.
 
