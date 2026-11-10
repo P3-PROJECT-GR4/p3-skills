@@ -1,6 +1,6 @@
 {
   "name": "p3-skills",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Danske skills til gruppeprojekter: opsætning af regler og docs, grilling med glossary og ADR'er, spec og tickets som GitHub-issues, logning af AI-brug, kodegennemgang og vejledning.",
   "author": { "name": "P3-gruppe" },
   "license": "MIT",
